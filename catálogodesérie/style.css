@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f0ff;
+    color: #493568;
+    line-height: 1.6;
+}
+
+
+header {
+    text-align: center;
+    padding: 35px 20px;
+    background: #d8c5ff;
+    border-bottom: 4px solid #9b72cf;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 8px;
+    color: #4c2875;
+}
+
+header p {
+    color: #62418b;
+}
+
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 25px 20px;
+}
+
+
+.controles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+input,
+select,
+button {
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #c4a7ef;
+    font-size: 15px;
+}
+
+input,
+select {
+    background: #ffffff;
+    color: #493568;
+    flex: 1;
+    min-width: 160px;
+}
+
+input::placeholder {
+    color: #9a86b8;
+}
+
+input:focus,
+select:focus {
+    outline: 2px solid #9b72cf;
+}
+
+
+button {
+    background: #9570cf;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #7950b5;
+    transform: translateY(-2px);
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+}
+
+
+#mensagem {
+    margin: 18px 0;
+    color: #62418b;
+}
+
+
+.catalogo {
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(220px, 1fr)
+    );
+    gap: 22px;
+    margin: 25px 0 40px;
+}
+
+
+.card {
+    background: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 2px solid #e1d2fa;
+    box-shadow: 0 5px 15px rgba(91, 55, 145, 0.10);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 22px rgba(91, 55, 145, 0.18);
+}
+
+.card img {
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
+    display: block;
+    background: #e9ddff;
+}
+
+.card-conteudo {
+    padding: 15px;
+}
+
+.card h2 {
+    color: #8051b5;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #695285;
+    margin: 5px 0;
+}
+
+
+.estatisticas {
+    background: #e9ddff;
+    padding: 25px;
+    border-radius: 15px;
+    border: 2px solid #d0b9f5;
+    border-left: 6px solid #9570cf;
+}
+
+.estatisticas h2 {
+    color: #573582;
+    margin-bottom: 12px;
+}
+
+.estatisticas p {
+    margin: 8px 0;
+    color: #695285;
+}
+
+.estatisticas strong {
+    color: #8051b5;
+}
+
+
+footer {
+    text-align: center;
+    background: #d8c5ff;
+    color: #4c2875;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.7rem;
+    }
+
+    .controles {
+        flex-direction: column;
+    }
+
+    .controles input,
+    .controles select,
+    .controles button {
+        width: 100%;
+    }
+}

@@ -1,0 +1,60 @@
+{
+  "series": [
+    {
+      "titulo": "Gilmore Girls",
+      "ano": 2000,
+      "genero": "Drama",
+      "temporadas": 7,
+      "imagem": "img/gilmoregirls.jpg"
+    },
+    {
+      "titulo": "Chicago P.D.",
+      "ano": 2014,
+      "genero": "Policial",
+      "temporadas": 13,
+      "imagem": "img/chicago.jpg"
+    },
+    {
+      "titulo": "The Vampire Diaries",
+      "ano": 2009,
+      "genero": "Fantasia",
+      "temporadas": 8,
+      "imagem": "img/vampirediaries.jpg"
+    },
+    {
+      "titulo": "Dois Homens e Meio",
+      "ano": 2003,
+      "genero": "Comédia",
+      "temporadas": 12,
+      "imagem": "img/doishomens.jpg"
+    },
+    {
+      "titulo": "Todo Mundo Odeia o Chris",
+      "ano": 2005,
+      "genero": "Comédia",
+      "temporadas": 4,
+      "imagem": "img/todomundoodeia.jpg"
+    },
+    {
+      "titulo": "The Last of Us",
+      "ano": 2023,
+      "genero": "Drama",
+      "temporadas": 2,
+      "imagem": "img/thelastofus.jpg"
+    },
+    {
+      "titulo": "The Good Doctor",
+      "ano": 2017,
+      "genero": "Drama",
+      "temporadas": 7,
+      "imagem": "img/thegooddoctor.jpg"
+    },
+    {
+      "titulo": "The Boys",
+      "ano": 2019,
+      "genero": "Ação",
+      "temporadas": 5,
+      "imagem": "img/theboys.jpg"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Séries</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Catálogo de Séries</h1>
+        <p>Encontre sua próxima série favorita!</p>
+    </header>
+
+    <main>
+        <section class="controles">
+            <button id="carregar">Carregar Séries</button>
+
+            <input
+                type="text"
+                id="pesquisa"
+                placeholder="Pesquisar por título..."
+            >
+
+            <select id="filtroGenero">
+                <option value="">Todos os gêneros</option>
+            </select>
+
+            <select id="filtroAno">
+                <option value="">Todos os anos</option>
+            </select>
+
+            <button id="ordenar">Ordenar por Ano ↑</button>
+            <button id="limpar">Limpar Filtros</button>
+        </section>
+
+        <p id="mensagem">Clique em "Carregar Séries" para começar.</p>
+
+        <section id="catalogo" class="catalogo"></section>
+
+        <section class="estatisticas">
+            <h2>Estatísticas do Catálogo</h2>
+            <p>Total de séries: <strong id="total">0</strong></p>
+            <p>Série mais antiga: <strong id="antiga">-</strong></p>
+            <p>Série mais recente: <strong id="recente">-</strong></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Catálogo de Séries — Joyce e Paulo</p>
+    </footer>
+</body>
+</html>
